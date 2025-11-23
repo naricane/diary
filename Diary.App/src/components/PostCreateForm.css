@@ -1,0 +1,36 @@
+.post-create-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    & textarea {
+        width: 100%;
+        min-height: 4rem;
+        padding: 12px;
+        border-radius: 8px;
+        background-color: #1f0103;
+        font-size: 16px;
+        resize: none;
+        outline: none;
+        border: 2px solid #360408;
+        color: white;
+        overflow: hidden;
+    }
+
+    & button {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 0.5em 2.5em;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        align-self: flex-end;
+    }
+}
